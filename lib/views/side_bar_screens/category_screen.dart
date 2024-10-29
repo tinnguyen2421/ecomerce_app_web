@@ -1,4 +1,5 @@
 import 'package:ecomerce_app_web/controllers/category_controller.dart';
+import 'package:ecomerce_app_web/views/side_bar_screens/widgets/category_widget.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
@@ -162,6 +163,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
           const Divider(
             color: Colors.grey,
           ),
+          CategoryWidget(),
         ],
       ),
     );
